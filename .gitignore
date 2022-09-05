@@ -4,3 +4,7 @@ Scripts/
 share/
 pyvenv.cfg
 requirements.txt
+zoe/repository/__pycache__
+zoe/repository/data/__pycache__
+zoe/routers/__pycache__
+zoe/__pycache__
