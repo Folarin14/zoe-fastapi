@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 # from .repository import models
 # from .repository.database import engine
-from .routers import finance_data
+from zoe.routers import finance_data
 
 app = FastAPI()
 

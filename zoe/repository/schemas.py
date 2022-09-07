@@ -1,18 +1,18 @@
 from typing import Union
 from pydantic import BaseModel, root_validator
-from .data.calculations_uk import (taxable_yearly_income,
-                                   btr_difference, htr_difference, yearly_tax_btr, yearly_tax_htr, yearly_income_tax,
-                                   monthly_gross_income, monthly_taxable_income, weekly_gross_income, weekly_personal_allowance,
-                                   weekly_taxable_income, weekly_taxable_PT_NI, weekly_taxable_ST_NI, weekly_PT_NI_contribution,
-                                   weekly_ST_NI_contribution, total_weekly_NI_contribution, weekly_income_tax, weekly_total_tax,
-                                   weekly_net_income, hourly_gross_income, hourly_net_income, total_monthly_NI_contribution,
-                                   monthly_income_tax, monthly_total_tax, yearly_pension_contribution, monthly_pension_contribution,
-                                   monthly_net_income, yearly_NI_contribution, approx_total_yearly_tax, years_before_retirement,
-                                   work_hours_per_year, hours_left_before_retirement, approx_monthly_savings, approx_yearly_savings,
-                                   approx_yearly_expenses, total_earned_now_retirement, total_expenses_now_retirement, total_tax_now_retirement,
-                                   total_tax_paid, total_cash_left_retirement, total_Cash_left_percent, total_pension_now_retirement,
-                                   have_cash_amount_desired_by_retirement, yearly_state_pension_payout, pension_payout_15yrs,
-                                   pension_payout_20yrs, pension_payout_30yrs)
+from zoe.repository.data.calculations_uk import (taxable_yearly_income,
+                                                 btr_difference, htr_difference, yearly_tax_btr, yearly_tax_htr, yearly_income_tax,
+                                                 monthly_gross_income, monthly_taxable_income, weekly_gross_income, weekly_personal_allowance,
+                                                 weekly_taxable_income, weekly_taxable_PT_NI, weekly_taxable_ST_NI, weekly_PT_NI_contribution,
+                                                 weekly_ST_NI_contribution, total_weekly_NI_contribution, weekly_income_tax, weekly_total_tax,
+                                                 weekly_net_income, hourly_gross_income, hourly_net_income, total_monthly_NI_contribution,
+                                                 monthly_income_tax, monthly_total_tax, yearly_pension_contribution, monthly_pension_contribution,
+                                                 monthly_net_income, yearly_NI_contribution, approx_total_yearly_tax, years_before_retirement,
+                                                 work_hours_per_year, hours_left_before_retirement, approx_monthly_savings, approx_yearly_savings,
+                                                 approx_yearly_expenses, total_earned_now_retirement, total_expenses_now_retirement, total_tax_now_retirement,
+                                                 total_tax_paid, total_cash_left_retirement, total_Cash_left_percent, total_pension_now_retirement,
+                                                 have_cash_amount_desired_by_retirement, yearly_state_pension_payout, pension_payout_15yrs,
+                                                 pension_payout_20yrs, pension_payout_30yrs)
 
 
 class InputFinanceData(BaseModel):

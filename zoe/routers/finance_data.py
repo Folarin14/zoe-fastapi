@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException, status
 # from sqlalchemy.orm import Session
 # from ..repository.models import FinanceTable
 # , IncomeCalculation
-from ..repository.schemas import InputFinanceData, ResponseInputFinanceData
+from zoe.repository.schemas import InputFinanceData, ResponseInputFinanceData
 # from ..repository.database import get_db
 #db: Session = Depends(get_db)
 
